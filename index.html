@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Expresion regulares</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+</head>
+<body>
+	<div class="container">
+		<h3 class="text-center mt-5 mb-3">Practica expresiones regulares</h3>
+		<form>
+			<div class="row">
+			  	<div class="col-md-6">
+			  		<div class="form-group">
+				  	    <label for="Email">Email</label>
+				  	    <input type="text" class="form-control" id="Email" aria-describedby="emailHelp">
+				  	    <div id="emailHelp"></div>				  	    
+			  	  	</div>
+			  	</div>
+
+	  		  	<div class="col-md-6">
+	  	  	  		<div class="form-group">
+	  	  		  	    <label for="Entero">Número Entero</label>
+	  	  		  	    <input type="text" class="form-control" id="Entero" aria-describedby="emailHelp">
+	  	  		  	    <div id="enteroHelp"></div>	  	  		  	   
+	  	  	  	  	</div>
+	  		  	</div>
+			</div>
+
+			<div class="row">
+			  	<div class="col-md-6">
+			  		<div class="form-group">
+				  	    <label for="Real">Numero Real</label>
+				  	    <input type="text" class="form-control" id="Real" aria-describedby="emailHelp">
+				  	    <div id="realHelp"></div>
+				  	   
+			  	  	</div>
+			  	</div>
+
+	  		  	<div class="col-md-6">
+	  	  	  		<div class="form-group">
+	  	  		  	    <label for="exampleInputEmail1">Notación cientifica</label>
+	  	  		  	    <input type="text" class="form-control" id="Notation" aria-describedby="emailHelp">
+	  	  		  	    <div id="notationHelp"></div>
+	  	  	  	  	</div>
+	  		  	</div>
+			</div>
+			<button class="btn btn-success btn-lg btn-block" onclick="main(event)">Validar</button>
+		</form>	
+	</div>
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+	<script type="text/javascript" src="modelo.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
+</body>
+</html>
